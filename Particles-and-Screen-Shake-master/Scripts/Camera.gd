@@ -12,7 +12,7 @@ func _ready():
 	_trauma = 0.0
 
 func add_trauma(amount):
-	_trauma = min(_trauma + amount, 1)
+	_trauma = min(_trauma + amount, 0.7)
  
 func _process(delta):   
 	if _trauma > 0:
