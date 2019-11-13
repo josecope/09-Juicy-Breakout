@@ -1,4 +1,4 @@
 # Particles-and-Screen-Shake
-Working with Particles and Screen Shake in Godot
+Hello!
 
-Here is a project for you to play with. Hopefully, it will be helpful on the juicy breakout assignment.
+Here is my juicy breakout projct.  I had trouble with it but managed to implement a few aesthetic designs.  Hope you enjoy!

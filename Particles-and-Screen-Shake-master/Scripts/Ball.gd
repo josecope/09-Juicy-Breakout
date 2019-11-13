@@ -14,6 +14,8 @@ func _physics_process(delta):
 	var bodies = get_colliding_bodies()
 	for body in bodies:
 		get_parent().get_node("Camera").add_trauma(0.5)
+		if body.is_in_group("Tiles"):
+            body.queue_free()
 	
 	# Create comet trail
 	var temp = $ColorRect.duplicate()

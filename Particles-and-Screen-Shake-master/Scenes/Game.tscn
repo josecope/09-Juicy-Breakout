@@ -46,12 +46,12 @@ margin_left = -40.0
 margin_top = -10.0
 margin_right = 40.0
 margin_bottom = 10.0
+color = Color( 1, 0.819608, 0, 1 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Paddle"]
 shape = SubResource( 1 )
 
 [node name="Ball" type="RigidBody2D" parent="."]
-editor/display_folded = true
 position = Vector2( 520, 500 )
 mode = 2
 physics_material_override = SubResource( 2 )
@@ -70,7 +70,6 @@ margin_left = -10.0
 margin_top = -10.0
 margin_right = 10.0
 margin_bottom = 10.0
-color = Color( 0.780392, 0, 1, 1 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Ball"]
 shape = SubResource( 3 )
@@ -78,19 +77,20 @@ shape = SubResource( 3 )
 [node name="Trail" type="Node" parent="Ball"]
 
 [node name="Tiles" type="Node2D" parent="."]
-position = Vector2( 0, -89.0735 )
+editor/display_folded = true
+position = Vector2( 0.8591, -83.0598 )
 __meta__ = {
 "_edit_group_": true
 }
 
 [node name="Row 0" type="Node2D" parent="Tiles"]
 editor/display_folded = true
+position = Vector2( -3.43637, 42.955 )
 __meta__ = {
 "_edit_group_": true
 }
 
 [node name="Tile" type="StaticBody2D" parent="Tiles/Row 0"]
-editor/display_folded = true
 position = Vector2( 210, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -104,9 +104,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 0.0549021, 0, 1, 1 )
 
 [node name="Tile2" type="StaticBody2D" parent="Tiles/Row 0"]
-editor/display_folded = true
 position = Vector2( 280, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -120,9 +120,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 0.054902, 0, 1, 1 )
 
 [node name="Tile3" type="StaticBody2D" parent="Tiles/Row 0"]
-editor/display_folded = true
 position = Vector2( 350, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -136,9 +136,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 0.0549021, 0, 1, 1 )
 
 [node name="Tile4" type="StaticBody2D" parent="Tiles/Row 0"]
-editor/display_folded = true
 position = Vector2( 420, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -152,9 +152,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 0.0549021, 0, 1, 1 )
 
 [node name="Tile5" type="StaticBody2D" parent="Tiles/Row 0"]
-editor/display_folded = true
 position = Vector2( 490, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -168,9 +168,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 0.0549021, 0, 1, 1 )
 
 [node name="Tile6" type="StaticBody2D" parent="Tiles/Row 0"]
-editor/display_folded = true
 position = Vector2( 560, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -184,9 +184,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 0.0549021, 0, 1, 1 )
 
 [node name="Tile7" type="StaticBody2D" parent="Tiles/Row 0"]
-editor/display_folded = true
 position = Vector2( 630, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -200,9 +200,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 0.0549021, 0, 1, 1 )
 
 [node name="Tile8" type="StaticBody2D" parent="Tiles/Row 0"]
-editor/display_folded = true
 position = Vector2( 700, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -216,9 +216,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 0.0549021, 0, 1, 1 )
 
 [node name="Tile9" type="StaticBody2D" parent="Tiles/Row 0"]
-editor/display_folded = true
 position = Vector2( 770, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -232,9 +232,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 0.0549021, 0, 1, 1 )
 
 [node name="Tile10" type="StaticBody2D" parent="Tiles/Row 0"]
-editor/display_folded = true
 position = Vector2( 840, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -248,16 +248,16 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 0.0549021, 0, 1, 1 )
 
 [node name="Row 1" type="Node2D" parent="Tiles"]
 editor/display_folded = true
-position = Vector2( 0, -30 )
+position = Vector2( -62.7142, -5.94522 )
 __meta__ = {
 "_edit_group_": true
 }
 
 [node name="Tile" type="StaticBody2D" parent="Tiles/Row 1"]
-editor/display_folded = true
 position = Vector2( 210, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -271,9 +271,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 0, 0.741176, 1, 1 )
 
 [node name="Tile2" type="StaticBody2D" parent="Tiles/Row 1"]
-editor/display_folded = true
 position = Vector2( 280, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -287,9 +287,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 0, 0.741176, 1, 1 )
 
 [node name="Tile3" type="StaticBody2D" parent="Tiles/Row 1"]
-editor/display_folded = true
 position = Vector2( 350, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -303,9 +303,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 0, 0.741176, 1, 1 )
 
 [node name="Tile4" type="StaticBody2D" parent="Tiles/Row 1"]
-editor/display_folded = true
 position = Vector2( 420, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -319,9 +319,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 0, 0.741176, 1, 1 )
 
 [node name="Tile5" type="StaticBody2D" parent="Tiles/Row 1"]
-editor/display_folded = true
 position = Vector2( 490, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -335,9 +335,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 0, 0.741176, 1, 1 )
 
 [node name="Tile6" type="StaticBody2D" parent="Tiles/Row 1"]
-editor/display_folded = true
 position = Vector2( 560, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -351,9 +351,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 0, 0.741176, 1, 1 )
 
 [node name="Tile7" type="StaticBody2D" parent="Tiles/Row 1"]
-editor/display_folded = true
 position = Vector2( 630, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -367,9 +367,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 0, 0.741176, 1, 1 )
 
 [node name="Tile8" type="StaticBody2D" parent="Tiles/Row 1"]
-editor/display_folded = true
 position = Vector2( 700, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -383,9 +383,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 0, 0.741176, 1, 1 )
 
 [node name="Tile9" type="StaticBody2D" parent="Tiles/Row 1"]
-editor/display_folded = true
 position = Vector2( 770, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -399,9 +399,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 0, 0.741176, 1, 1 )
 
 [node name="Tile10" type="StaticBody2D" parent="Tiles/Row 1"]
-editor/display_folded = true
 position = Vector2( 840, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -415,16 +415,15 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 0, 0.741176, 1, 1 )
 
 [node name="Row 2" type="Node2D" parent="Tiles"]
-editor/display_folded = true
-position = Vector2( 0, -60 )
+position = Vector2( 38.6594, -53.1272 )
 __meta__ = {
 "_edit_group_": true
 }
 
 [node name="Tile" type="StaticBody2D" parent="Tiles/Row 2"]
-editor/display_folded = true
 position = Vector2( 210, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -438,9 +437,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 0.101961, 1, 0, 1 )
 
 [node name="Tile2" type="StaticBody2D" parent="Tiles/Row 2"]
-editor/display_folded = true
 position = Vector2( 280, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -454,9 +453,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 0.101961, 1, 0, 1 )
 
 [node name="Tile3" type="StaticBody2D" parent="Tiles/Row 2"]
-editor/display_folded = true
 position = Vector2( 350, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -470,9 +469,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 0.101961, 1, 0, 1 )
 
 [node name="Tile4" type="StaticBody2D" parent="Tiles/Row 2"]
-editor/display_folded = true
 position = Vector2( 420, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -486,9 +485,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 0.101961, 1, 0, 1 )
 
 [node name="Tile5" type="StaticBody2D" parent="Tiles/Row 2"]
-editor/display_folded = true
 position = Vector2( 490, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -502,9 +501,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 0.101961, 1, 0, 1 )
 
 [node name="Tile6" type="StaticBody2D" parent="Tiles/Row 2"]
-editor/display_folded = true
 position = Vector2( 560, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -518,9 +517,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 0.101961, 1, 0, 1 )
 
 [node name="Tile7" type="StaticBody2D" parent="Tiles/Row 2"]
-editor/display_folded = true
 position = Vector2( 630, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -534,9 +533,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 0.101961, 1, 0, 1 )
 
 [node name="Tile8" type="StaticBody2D" parent="Tiles/Row 2"]
-editor/display_folded = true
 position = Vector2( 700, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -550,9 +549,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 0.101961, 1, 0, 1 )
 
 [node name="Tile9" type="StaticBody2D" parent="Tiles/Row 2"]
-editor/display_folded = true
 position = Vector2( 770, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -566,9 +565,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 0.101961, 1, 0, 1 )
 
 [node name="Tile10" type="StaticBody2D" parent="Tiles/Row 2"]
-editor/display_folded = true
 position = Vector2( 840, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -582,16 +581,15 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 0.101961, 1, 0, 1 )
 
 [node name="Row 3" type="Node2D" parent="Tiles"]
-editor/display_folded = true
-position = Vector2( 0, -90 )
+position = Vector2( -6.8728, -103.746 )
 __meta__ = {
 "_edit_group_": true
 }
 
 [node name="Tile" type="StaticBody2D" parent="Tiles/Row 3"]
-editor/display_folded = true
 position = Vector2( 210, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -605,9 +603,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 1, 0, 0.960784, 1 )
 
 [node name="Tile2" type="StaticBody2D" parent="Tiles/Row 3"]
-editor/display_folded = true
 position = Vector2( 280, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -621,9 +619,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 1, 0, 0.960784, 1 )
 
 [node name="Tile3" type="StaticBody2D" parent="Tiles/Row 3"]
-editor/display_folded = true
 position = Vector2( 350, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -637,9 +635,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 1, 0, 0.960784, 1 )
 
 [node name="Tile4" type="StaticBody2D" parent="Tiles/Row 3"]
-editor/display_folded = true
 position = Vector2( 420, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -653,9 +651,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 1, 0, 0.960784, 1 )
 
 [node name="Tile5" type="StaticBody2D" parent="Tiles/Row 3"]
-editor/display_folded = true
 position = Vector2( 490, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -669,9 +667,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 1, 0, 0.960784, 1 )
 
 [node name="Tile6" type="StaticBody2D" parent="Tiles/Row 3"]
-editor/display_folded = true
 position = Vector2( 560, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -685,9 +683,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 1, 0, 0.960784, 1 )
 
 [node name="Tile7" type="StaticBody2D" parent="Tiles/Row 3"]
-editor/display_folded = true
 position = Vector2( 630, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -701,9 +699,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 1, 0, 0.960784, 1 )
 
 [node name="Tile8" type="StaticBody2D" parent="Tiles/Row 3"]
-editor/display_folded = true
 position = Vector2( 700, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -717,9 +715,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 1, 0, 0.960784, 1 )
 
 [node name="Tile9" type="StaticBody2D" parent="Tiles/Row 3"]
-editor/display_folded = true
 position = Vector2( 770, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -733,9 +731,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 1, 0, 0.960784, 1 )
 
 [node name="Tile10" type="StaticBody2D" parent="Tiles/Row 3"]
-editor/display_folded = true
 position = Vector2( 840, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -749,16 +747,15 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 1, 0, 0.960784, 1 )
 
 [node name="Row 4" type="Node2D" parent="Tiles"]
-editor/display_folded = true
-position = Vector2( 0, -120 )
+position = Vector2( -64.4324, -157.8 )
 __meta__ = {
 "_edit_group_": true
 }
 
 [node name="Tile" type="StaticBody2D" parent="Tiles/Row 4"]
-editor/display_folded = true
 position = Vector2( 210, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -772,9 +769,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 1, 0.494118, 0, 1 )
 
 [node name="Tile2" type="StaticBody2D" parent="Tiles/Row 4"]
-editor/display_folded = true
 position = Vector2( 280, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -788,9 +785,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 1, 0.494118, 0, 1 )
 
 [node name="Tile3" type="StaticBody2D" parent="Tiles/Row 4"]
-editor/display_folded = true
 position = Vector2( 350, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -804,9 +801,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 1, 0.494118, 0, 1 )
 
 [node name="Tile4" type="StaticBody2D" parent="Tiles/Row 4"]
-editor/display_folded = true
 position = Vector2( 420, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -820,9 +817,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 1, 0.494118, 0, 1 )
 
 [node name="Tile5" type="StaticBody2D" parent="Tiles/Row 4"]
-editor/display_folded = true
 position = Vector2( 490, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -836,9 +833,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 1, 0.494118, 0, 1 )
 
 [node name="Tile6" type="StaticBody2D" parent="Tiles/Row 4"]
-editor/display_folded = true
 position = Vector2( 560, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -852,9 +849,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 1, 0.494118, 0, 1 )
 
 [node name="Tile7" type="StaticBody2D" parent="Tiles/Row 4"]
-editor/display_folded = true
 position = Vector2( 630, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -868,9 +865,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 1, 0.494118, 0, 1 )
 
 [node name="Tile8" type="StaticBody2D" parent="Tiles/Row 4"]
-editor/display_folded = true
 position = Vector2( 700, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -884,9 +881,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 1, 0.494118, 0, 1 )
 
 [node name="Tile9" type="StaticBody2D" parent="Tiles/Row 4"]
-editor/display_folded = true
 position = Vector2( 770, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -900,9 +897,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 1, 0.494118, 0, 1 )
 
 [node name="Tile10" type="StaticBody2D" parent="Tiles/Row 4"]
-editor/display_folded = true
 position = Vector2( 840, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -916,16 +913,15 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 1, 0.494118, 0, 1 )
 
 [node name="Row 5" type="Node2D" parent="Tiles"]
-editor/display_folded = true
-position = Vector2( 0, -150 )
+position = Vector2( 42.0958, -216.151 )
 __meta__ = {
 "_edit_group_": true
 }
 
 [node name="Tile" type="StaticBody2D" parent="Tiles/Row 5"]
-editor/display_folded = true
 position = Vector2( 210, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -939,9 +935,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 1, 0.027451, 0.027451, 1 )
 
 [node name="Tile2" type="StaticBody2D" parent="Tiles/Row 5"]
-editor/display_folded = true
 position = Vector2( 280, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -955,9 +951,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 1, 0.027451, 0.027451, 1 )
 
 [node name="Tile3" type="StaticBody2D" parent="Tiles/Row 5"]
-editor/display_folded = true
 position = Vector2( 350, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -971,9 +967,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 1, 0.027451, 0.027451, 1 )
 
 [node name="Tile4" type="StaticBody2D" parent="Tiles/Row 5"]
-editor/display_folded = true
 position = Vector2( 420, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -987,9 +983,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 1, 0.027451, 0.027451, 1 )
 
 [node name="Tile5" type="StaticBody2D" parent="Tiles/Row 5"]
-editor/display_folded = true
 position = Vector2( 490, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -1003,9 +999,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 1, 0.027451, 0.027451, 1 )
 
 [node name="Tile6" type="StaticBody2D" parent="Tiles/Row 5"]
-editor/display_folded = true
 position = Vector2( 560, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -1019,9 +1015,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 1, 0.027451, 0.027451, 1 )
 
 [node name="Tile7" type="StaticBody2D" parent="Tiles/Row 5"]
-editor/display_folded = true
 position = Vector2( 630, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -1035,9 +1031,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 1, 0.027451, 0.027451, 1 )
 
 [node name="Tile8" type="StaticBody2D" parent="Tiles/Row 5"]
-editor/display_folded = true
 position = Vector2( 700, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -1051,9 +1047,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 1, 0.027451, 0.027451, 1 )
 
 [node name="Tile9" type="StaticBody2D" parent="Tiles/Row 5"]
-editor/display_folded = true
 position = Vector2( 770, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -1067,9 +1063,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 1, 0.027451, 0.027451, 1 )
 
 [node name="Tile10" type="StaticBody2D" parent="Tiles/Row 5"]
-editor/display_folded = true
 position = Vector2( 840, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -1083,16 +1079,15 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 1, 0.027451, 0.027451, 1 )
 
 [node name="Row 6" type="Node2D" parent="Tiles"]
-editor/display_folded = true
-position = Vector2( 0, -180 )
+position = Vector2( -4.29541, -272.783 )
 __meta__ = {
 "_edit_group_": true
 }
 
 [node name="Tile" type="StaticBody2D" parent="Tiles/Row 6"]
-editor/display_folded = true
 position = Vector2( 210, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -1106,9 +1101,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 0, 0.345098, 1, 1 )
 
 [node name="Tile2" type="StaticBody2D" parent="Tiles/Row 6"]
-editor/display_folded = true
 position = Vector2( 280, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -1122,9 +1117,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 0, 0.345098, 1, 1 )
 
 [node name="Tile3" type="StaticBody2D" parent="Tiles/Row 6"]
-editor/display_folded = true
 position = Vector2( 350, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -1138,9 +1133,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 0, 0.345098, 1, 1 )
 
 [node name="Tile4" type="StaticBody2D" parent="Tiles/Row 6"]
-editor/display_folded = true
 position = Vector2( 420, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -1154,9 +1149,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 0, 0.345098, 1, 1 )
 
 [node name="Tile5" type="StaticBody2D" parent="Tiles/Row 6"]
-editor/display_folded = true
 position = Vector2( 490, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -1170,9 +1165,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 0, 0.345098, 1, 1 )
 
 [node name="Tile6" type="StaticBody2D" parent="Tiles/Row 6"]
-editor/display_folded = true
 position = Vector2( 560, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -1186,9 +1181,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 0, 0.345098, 1, 1 )
 
 [node name="Tile7" type="StaticBody2D" parent="Tiles/Row 6"]
-editor/display_folded = true
 position = Vector2( 630, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -1202,9 +1197,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 0, 0.345098, 1, 1 )
 
 [node name="Tile8" type="StaticBody2D" parent="Tiles/Row 6"]
-editor/display_folded = true
 position = Vector2( 700, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -1218,9 +1213,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 0, 0.345098, 1, 1 )
 
 [node name="Tile9" type="StaticBody2D" parent="Tiles/Row 6"]
-editor/display_folded = true
 position = Vector2( 770, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -1234,9 +1229,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 0, 0.345098, 1, 1 )
 
 [node name="Tile10" type="StaticBody2D" parent="Tiles/Row 6"]
-editor/display_folded = true
 position = Vector2( 840, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -1250,16 +1245,15 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 0, 0.345098, 1, 1 )
 
 [node name="Row 7" type="Node2D" parent="Tiles"]
-editor/display_folded = true
-position = Vector2( 0, -210 )
+position = Vector2( 38.6594, 101.853 )
 __meta__ = {
 "_edit_group_": true
 }
 
 [node name="Tile" type="StaticBody2D" parent="Tiles/Row 7"]
-editor/display_folded = true
 position = Vector2( 210, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -1273,9 +1267,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 0.47451, 0, 0.643137, 1 )
 
 [node name="Tile2" type="StaticBody2D" parent="Tiles/Row 7"]
-editor/display_folded = true
 position = Vector2( 280, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -1289,9 +1283,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 0.47451, 0, 0.643137, 1 )
 
 [node name="Tile3" type="StaticBody2D" parent="Tiles/Row 7"]
-editor/display_folded = true
 position = Vector2( 350, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -1305,9 +1299,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 0.47451, 0, 0.643137, 1 )
 
 [node name="Tile4" type="StaticBody2D" parent="Tiles/Row 7"]
-editor/display_folded = true
 position = Vector2( 420, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -1321,9 +1315,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 0.47451, 0, 0.643137, 1 )
 
 [node name="Tile5" type="StaticBody2D" parent="Tiles/Row 7"]
-editor/display_folded = true
 position = Vector2( 490, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -1337,9 +1331,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 0.47451, 0, 0.643137, 1 )
 
 [node name="Tile6" type="StaticBody2D" parent="Tiles/Row 7"]
-editor/display_folded = true
 position = Vector2( 560, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -1353,9 +1347,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 0.47451, 0, 0.643137, 1 )
 
 [node name="Tile7" type="StaticBody2D" parent="Tiles/Row 7"]
-editor/display_folded = true
 position = Vector2( 630, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -1369,9 +1363,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 0.47451, 0, 0.643137, 1 )
 
 [node name="Tile8" type="StaticBody2D" parent="Tiles/Row 7"]
-editor/display_folded = true
 position = Vector2( 700, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -1385,9 +1379,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 0.47451, 0, 0.643137, 1 )
 
 [node name="Tile9" type="StaticBody2D" parent="Tiles/Row 7"]
-editor/display_folded = true
 position = Vector2( 770, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -1401,9 +1395,9 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 0.47451, 0, 0.643137, 1 )
 
 [node name="Tile10" type="StaticBody2D" parent="Tiles/Row 7"]
-editor/display_folded = true
 position = Vector2( 840, 410 )
 __meta__ = {
 "_edit_group_": true
@@ -1417,6 +1411,7 @@ margin_left = -30.0
 margin_top = -10.0
 margin_right = 30.0
 margin_bottom = 10.0
+color = Color( 0.47451, 0, 0.643137, 1 )
 
 [node name="Wall" type="StaticBody2D" parent="."]
 
